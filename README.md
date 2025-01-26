@@ -1,6 +1,6 @@
-# Running the P2P Backend
+## How to run P2P Backend
 
-## Prerequisites
+## Required Modules
 - [Node.js](https://nodejs.org/) (v16 or higher recommended)
 - [MongoDB](https://www.mongodb.com/) (local or cloud database)
 
@@ -32,4 +32,6 @@ The backend should now be running on http://localhost:5000 (or the port specifie
 arduino
 Copy code
 
-This should provide a clear and simple guide for running your P2P backend.
+This should provide a clear and simple guide for running your P2P backend. After successful run, go to our p2p_app_frontend repo, and run the main app in your computer.
+
+Thanks!
