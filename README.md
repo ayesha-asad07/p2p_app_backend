@@ -6,31 +6,28 @@
 
 ## Setup and Run
 
-1. *Clone the Repository*:
+1. **Clone the Repository:**
    ```bash
    git clone https://github.com/your-username/p2p_communication_app.git
    cd p2p_communication_app/backend
-Install Dependencies: Run the following command to install the required dependencies:
+2. **Install Dependencies:**
 
-bash
-Copy code
-npm install
-Set up Environment Variables: Create a .env file in the root directory and add the following:
+   Run the following command to install the required dependencies:
 
-plaintext
-Copy code
-PORT=5000
-MONGO_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/myDatabase
-JWT_SECRET=your_jwt_secret
-Start the Server: Run the server using:
+        npm install
+4. **Set up Environment Variables:**
 
-bash
-Copy code
-npm start
+   Create a .env file in the root directory and add the following:
+
+         PORT=5000
+         MONGO_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/myDatabase
+         JWT_SECRET=your_jwt_secret
+6. **Start the Server:**
+
+    Run the server using:
+
+         npm start
 The backend should now be running on http://localhost:5000 (or the port specified in .env).
-
-arduino
-Copy code
 
 This should provide a clear and simple guide for running your P2P backend. After successful run, go to our p2p_app_frontend repo, and run the main app in your computer.
 
